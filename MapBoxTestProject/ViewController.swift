@@ -17,6 +17,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+//        mapView.setCenterCoordinate(CLLocationCoordinate2D(latitude: 32.0808800, longitude: 34.7805700), animated: false)
+        mapView.setCenterCoordinate(CLLocationCoordinate2D(latitude: 32.0808800, longitude: 34.7805700), zoomLevel: 12, animated: false)
     }
 
     override func didReceiveMemoryWarning() {
