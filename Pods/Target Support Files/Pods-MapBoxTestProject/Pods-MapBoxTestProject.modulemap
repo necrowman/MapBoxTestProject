@@ -1,0 +1,6 @@
+framework module Pods_MapBoxTestProject {
+  umbrella header "Pods-MapBoxTestProject-umbrella.h"
+
+  export *
+  module * { export * }
+}
